@@ -6,6 +6,7 @@ jQuery(document).ready(function () {
     player.on('ready', (event) => {
       document.querySelector('.plyr__video-wrapper').insertAdjacentHTML('beforeend','<div class="plyr__custom-overlay"></div>');
       jQuery('.plyr').appendTo('.featured-video > .video100');
+      jQuery('.show-more-less-handler').remove();
     });
   });
 });
