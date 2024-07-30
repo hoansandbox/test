@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
   if (jQuery('.featured-video > .video100 iframe').length === 0) {
-    jQuery('.featured-video > .video100').append('<div class="video100"></div>');
+    jQuery('.featured-video').append('<div class="video100"></div>');
     jQuery('.show-less-div-2 iframe').appendTo('.featured-video > .video100');
   }
 
